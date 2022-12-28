@@ -1,9 +1,9 @@
 import authReducerSlice from "./authSlice";
 
-export const UsersModule = {
-    id: "authm",
+export const AuthModule = {
+    id: "authmodule",
     reducerMap: {
-        users: authReducerSlice,
+        auth: authReducerSlice,
     },
     // Actions to fire when this module is added/removed
     // initialActions: [],

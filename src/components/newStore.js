@@ -1,5 +1,5 @@
 import { createStore } from "redux-dynamic-modules";
-import { UsersModule } from "./features/modulea";
+import { UsersModule } from "./features/authModule";
 
 export const newstore = createStore(
     {

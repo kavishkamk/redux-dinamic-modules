@@ -1,8 +1,7 @@
 import React from "react";
-import { Provider } from "react-redux";
 import { DynamicModuleLoader } from "redux-dynamic-modules";
 import Component2 from "./Component2";
-import { EditModule } from "./features/moduleb";
+import { EditModule } from "./features/dashboardEditModule";
 
 // import { stores } from "./store";
 // import { storess } from "./abcstores";

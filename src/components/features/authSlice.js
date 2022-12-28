@@ -3,7 +3,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 // export type KeycloakInfo = {isAuthenticated: boolean, token: string, realm: string}
 
 //realms defined in keycloak
-export const realms = ['dimo', 'hayleys'];
+export const realms = ['a', 'b'];
 
 const initialState = {
     isAuth: false,
